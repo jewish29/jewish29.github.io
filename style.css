@@ -418,6 +418,11 @@ header .main{
         left: 0;
         margin: 25px;
     }
+     header .main{
+        position:absolute;
+         padding:10px 10px;
+         margin: 20px 20px;
+     }
     header .main.active{
         right: 0;
     }
@@ -500,9 +505,6 @@ header .main{
 }
         .skills-row p{
           font-size: 14px;
-    }
-    #skills{
-        min-height:150vh;
     }
     .col-2 img{
         margin-right: 10px;
