@@ -501,6 +501,9 @@ header .main{
         .skills-row p{
           font-size: 14px;
     }
+    #skills{
+        min-height:150vh;
+    }
     .col-2 img{
         margin-right: 10px;
         width: 350px;
