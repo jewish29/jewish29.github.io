@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>My Website</title>
+</head>
+<body>
+<header>
+    <img src="logo3-removebg-preview.png">
+
+    <div class="main">
+        <div class="btn">
+            <i class="fas fa-times active close-btn"></i>
+        </div>
+            <ul class="menu">
+                <li> <a href="#home">Home</a></li>
+                <li> <a href="#about">About</a></li>
+                <li> <a href="#skills">Skills</a></li>
+                <li> <a href="#contact">Contact</a></li>
+            </ul>
+    </div>
+    <div class="btn">
+        <i class="fas fa-bars  menu-btn"></i>
+    </div>
+</header>
+    <section id="home" class=" first-section">
+        <div class="container">
+            <h2>Hello, I'm <span class="auto-type">Jewish</span></h2>
+            <h1>A 2nd Year Student </h1>
+            <h3>Taking Course of Bachelor of Science  in Information Technology</h3>
+        </div>
+
+        <div class="image">
+          <img src="mypic.jpg">
+        </div>
+</section>
+<!-----------about---->
+<section id="about" class="second-section">
+
+        <div class="column">
+            <div class="col-1">
+                <h1>About Me</h1>
+                    <p>I'm Jewish Prince Vismanos, 22 years of existence.  I live in Bag Ong Argao Molave Zamboanga del Sur.
+                    I'm currently  </p> <p>studying in Northwestern Mindanao State College of Science and Technology(NMSCST).
+                   I am now a 2nd year </p> <p>student taking course of Bachelor of Science in Information Technology.</p>
+                
+                <div class="my-title">
+                    <p class="my-links active-link" onclick="openmy('Entertainment')">Entertainment</p>
+                    <p class="my-links" onclick="openmy('Goal')">Goal</p>
+                    <p class="my-links" onclick="openmy('Education')">Education</p>
+                </div>
+                <div class="my-contents active-my" id="Entertainment">
+                    <ul>
+                        <li><span>Hobbies</span>
+                            <ol>
+                                <li>Online Gaming</li>
+                                <li>Watching Anime</li>
+                                <li>Adventure</li>
+                                <li>Reading</li>
+                                <li>Enhancing my programming skills</li>
+                            </ol>
+                        </li>
+                        <li><span>Favorite Anime</span>
+                            <ol>
+                                <li>One Piece</li>
+                                <li>Demon Slayer</li>
+                                <li>My Hero Academia</li>
+                                <li>Eminence of Shadow</li>
+                                <li>Jujutsu Kaisen</li>
+                            </ol>
+                        </li>
+                    </ul>
+                </div>
+                <div class="my-contents" id="Goal">
+                    <ul>
+                        <li><span>Web Developer</span>
+                            <p>I love creating and designing websites</p>
+                        </li>
+                        <li><span>Expert Programer</span>
+                            <p>My main goal is to become an expert programer in any programming languages. Eventhough ,I am not good 
+                                in </p> <p>programming right now but, I believe that practice makes perfect. I am willing to accept my mistake
+                                in order to enhance</p><p> my skills.
+                            </p>
+                        </li>            
+                    </ul>
+                </div>
+                <div class="my-contents" id="Education">
+                    <ul>
+                        <li><span>Primary Education</span>
+                            <p>I graduated my primary education on 2015-2016 in Bag-Ong Argao Molave Zamboanga del Sur.</p>
+                        </li>
+                        <li><span>Secondary Education</span>
+                            <p>I graduated my secondary education on 2020-2021 in PIT_Mahayag Branch</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-2">
+                <img src="Css/logo_css.jpg">
+                    <h2><span>Achievement</span></h2>
+                        <p>I obtained my CSS NC-II when I graduated my secondary education in PIT_Mahayag Branch</p>
+            </div>
+        </div>
+
+</section>
+<section id="skills" class="third-section">
+    <h1>My Skills</h1>
+     <div class="skills-row">
+           
+        <div class="row-1">
+            
+            <img src="Css/troubleshooting.2.png">
+                <div class="row-2">
+                        <h2><span>Troubleshooting</span></h2>
+                         <p>Ability to diagnose and fix hardware and software issues.</p>
+                       
+                </div>
+        </div>
+        <div class="row-1">
+            <img src="Css/intallation.2.jpg">
+                <div class="row-2">             
+                    <h2><span>Installation</span></h2>
+                        <p>Skills in intalling operating systems, software applications, and hardware components.</p>                                
+                </div>
+        </div>
+        <div class="row-1">
+            <img src="Css/maintenance.2.jpg">
+            <div class="row-2">
+                
+                    <h2><span>Maintenance</span></h2>
+                        <p>Knowledge of routine maintenance practices for computers and peripherals</p>
+                 
+                    
+            </div>
+
+        </div>
+    </div>
+    <a href="#" class="btn">See More</a>
+</section>
+
+<!----------contact------------>
+<section id="contact" class="fourth-section">
+        <div class="container-1">
+            <h1>Contact Me</h1>
+            <div class="contact-1">
+                <form>
+                    <input class="name" type="text" name="name" placeholder="Your Name" required>
+                    <input class="email" type="email" name="email" placeholder="Your Email" required>
+                </form>
+            </div>
+            <div class="contact-2">
+                <form>
+                    <textarea class="message" name="Message" rows="7" placeholder="Type Your Message"></textarea>
+                    <a href=""><i class="fa-solid fa-paper-plane"></i></a>
+                </form>
+            </div>
+        </div>
+        
+        <div class="contact-3">
+            <h1>My Social Media</h1>
+            <p>jewishvismanos33@gmail.com</p>
+            <p>09097532784</p>
+            <div class="media-icon">
+                <a href="https://www.facebook.com/" ><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://www.instagram.com/" ><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://x.com/i/flow/login" ><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="https://mail.google.com" ><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.tiktok.com" ><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+     
+</section>
+
+<script type="text/javascript">
+    window.addEventListener("scroll",function(){
+        const header = document.querySelector("header");
+        header.classList.toggle("sticky",window.scrollY > 0);
+    });
+
+    let mylinks = document.getElementsByClassName("my-links");
+    let mycontents = document.getElementsByClassName("my-contents");
+
+        function openmy(myname){
+            for(let mylink of mylinks){
+                mylink.classList.remove("active-link");
+            }
+            for( let mycontent of mycontents){
+                mycontent.classList.remove("active-my");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(myname).classList.add("active-my");
+        }    
+</script>
+<script>
+    let main = document.querySelector('.main');
+    let menubtn = document.querySelector('.menu-btn');
+    let closebtbn = document.querySelector('.close-btn');
+
+    menubtn.addEventListener("click", () => {
+        main.classList.add('active');
+    });
+    closebtbn.addEventListener("click", () => {
+        main.classList.remove('active')
+    });
+</script>
+
+
+</body>
+</html>
+
+            
+       
+        
+
+
+
+     
